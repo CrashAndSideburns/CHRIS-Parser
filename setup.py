@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="chris-parser-CrashAndSideburns",
-    version="0",
+    name="chris-parser",
+    version="1",
     author="Morgan Arnold",
     author_email="morgan.r.arnold@outlook.com",
     description="A parser for the .chris file type.",
