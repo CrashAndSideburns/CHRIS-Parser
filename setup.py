@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="chris-parser",
-    version="1.6",
+    version="2.0",
     author="Morgan Arnold",
     author_email="morgan.r.arnold@outlook.com",
     description="A parser for the .chris file type.",

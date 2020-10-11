@@ -1,5 +1,5 @@
 import re
-import classes
+import chris.classes as classes
 
 REGEX = re.compile(r'{\s*quote:\s*"([^"]*)"\s+author:\s*{\s*last_name:\s*"([^"]*)"\s+first_name:\s*"([^"]*)"\s*}\s+date:\s*({\s*year:\s*(\d{4})\s+month:\s*(\d{1,2})\s+day:\s*(\d{1,2})\s*})?(\s+context:\s*"([^"]*)")?\s*}')
 
