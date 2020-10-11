@@ -1,1 +1,1 @@
-import chris
+from parser import parse
