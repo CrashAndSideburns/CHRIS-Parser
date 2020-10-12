@@ -1,0 +1,8 @@
+{
+    quote: "nd_quote"
+    author: {
+              last_name: "nd_ln"
+              first_name: "nd_fn"
+            }
+    context: "nd_context"
+}

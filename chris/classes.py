@@ -1,17 +1,19 @@
+from dataclasses import dataclass
+
+@dataclass(frozen = True)
 class Author():
-    def __init__(self,last_name,first_name):
-        self.last_name = last_name
-        self.first_name = first_name
+    last_name: str
+    first_name: str
 
+@dataclass(frozen = True)
 class Date():
-    def __init__(self,year,month,day):
-        self.year = year
-        self.month = month
-        self.day = day
+    year: str
+    month: str
+    day: str
 
+@dataclass(frozen = True)
 class Chris():
-    def __init__(self,quote,author,date,context):
-        self.quote = quote
-        self.author = author
-        self.date = date
-        self.context = context
+    quote: str
+    author: Author
+    date: Date
+    context: str

@@ -1,0 +1,13 @@
+{
+    quote: "full_quote"
+    author: {
+              last_name: "full_ln"
+              first_name: "full_fn"
+            }
+    date: {
+              year: 1970
+              month: 1
+              day: 1
+            }
+    context: "full_context"
+}

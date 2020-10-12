@@ -1,0 +1,7 @@
+{
+    quote: "ndc_quote"
+    author: {
+              last_name: "ndc_ln"
+              first_name: "ndc_fn"
+            }
+}

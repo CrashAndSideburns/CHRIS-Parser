@@ -1,0 +1,12 @@
+{
+    quote: "nc_quote"
+    author: {
+              last_name: "nc_ln"
+              first_name: "nc_fn"
+            }
+    date: {
+              year: 1970
+              month: 1
+              day: 1
+            }
+}
