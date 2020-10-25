@@ -15,5 +15,5 @@ class Date():
 class Chris():
     quote: str
     author: Author
-    date: Date
-    context: str
+    date: Date = None
+    context: str = None
